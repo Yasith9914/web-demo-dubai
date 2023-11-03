@@ -1,0 +1,27 @@
+#Box{
+   position: relative; 
+   background-color: red;
+   width: 200px;
+   height: 200px;
+    top: 20px;
+
+}
+#Box1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 30px;
+
+    background-color:green !important; 
+
+ }
+ .Box3{
+    position: absolute;
+    background-color:blue;
+    width: 200px;
+    height: 200px;
+    top: 180px;
+ }
+ 
+
+ 

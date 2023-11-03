@@ -1,0 +1,39 @@
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+/* Animation */
+
+/* @keyframes example{
+    0%{background-color: blue;  left: 0px;top: 0px;width: 300px;height: 300px;}
+    25%{background-color:darkgreen; left: 300px;top: 0px;width: 300px;height: 300px;}
+    50%{background-color:  chartreuse; left: 300px;top: 0px;width: 300px;height: 300px;}
+    75%{background-color: darkturquoise; left: 0px;top: 300px;width: 300px;height: 300px;}
+    100%{background-color: red; left: 0px;top: 0px;width: 300px;height: 300px;}
+} */
+
+@keyframes example{
+    from{background-color: red;left: 0px;top: 330px;}
+    to{background-color:yellow;left:300px;top: 330px;border-radius: 50%;}
+}
+
+/* Transition */
+.trans{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background-color 4s,width 1s;
+    /* Using transition We can handel the time to change hover b.color,width ,hight */
+}
+/* By using hover , when I taking mouse point in to trans object it will change */
+.trans:hover{   
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
