@@ -1,0 +1,79 @@
+.custom-margin{
+    margin-left: 88px;
+}
+.custom-margin-தமிழ்{
+    margin-right: 215px;
+}
+.custom-font-size{
+    font-size: 13px;
+    
+}
+.custom-verticle-rule{
+    width: 1px; height: 20px; border: 1px solid gray;
+    margin-top: 8px;
+    
+}
+.custom-flag-dropdown{
+    height: 2px; 
+    border: none;
+    background-color: transparent;
+    padding-top: 0%;
+}
+.custom-flag-size{
+   width:36px;
+}
+.custom-Dropdownflag-size{
+    height: 25px; 
+    width: 40px
+}
+.circle-singleline-1{
+      margin-top: 9px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: center;    
+      background: black;
+      color: #fff;
+      /* background-color: transparent; */
+  }
+  .circle-singleline-2{
+    margin-top: 9px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;    
+    background: gray;
+    color: black;
+    /* background-color: transparent; */
+}
+.custom-search-image{
+    height: 15px; 
+    margin-left: 20px;
+}
+.custom-search-text{
+    margin-left: 6px; 
+    margin-top: 8px; 
+    margin-right: 25px; 
+    font-size: 13px;
+}
+.custom-margin-nav2{
+    margin-left: 83px;
+}
+.dropdown-hover:hover>.dropdown-menu {
+    display: inline-block;
+    }
+    
+    .dropdown-hover>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+    }
+
+  
+  
+
+ 
+                
